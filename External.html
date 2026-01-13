@@ -3,76 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <title>Netflix Sign Up</title>
-    <link rel="stylesheet" href="External.css" />
+    <link rel="stylesheet" href="./external.css" />
   </head>
-  <body class="body">
-    <!-- Background -->
+  <body>
     <div class="background">
-      <!-- Header -->
       <div class="header">
-        <svg
-          width="150"
-          height="50"
-          viewBox="0 0 150 50"
-          xmlns="http://www.w3.org/2000/svg"
-        >
+        <svg width="150" height="50" viewBox="0 0 150 50">
           <rect x="0" y="0" width="150" height="50" fill="#221F1F" rx="4" />
           <text
             x="75"
             y="36"
-            font-family="Arial, sans-serif"
             font-size="32"
             font-weight="900"
             fill="#E50914"
             text-anchor="middle"
-            letter-spacing="0.5"
           >
             NETFLIX
           </text>
         </svg>
       </div>
-
-      <!-- Signup Box -->
-      <div class="center-container">
+      <div class="center">
         <div class="signup-box">
-          <h1 class="title">Create Your Account</h1>
+          <h1>Create Your Account</h1>
 
-          <input type="text" placeholder="First Name" class="input-field" />
-          <input type="text" placeholder="Last Name" class="input-field" />
-          <input type="email" placeholder="Email address" class="input-field" />
-          <input type="password" placeholder="Password" class="input-field" />
-          <input
-            type="password"
-            placeholder="Confirm Password"
-            class="input-field confirm"
-          />
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="email" placeholder="Email address" />
+          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Confirm Password" />
 
-          <!-- Terms Agreement -->
           <div class="terms">
-            <input type="checkbox" class="checkbox" />
-            <span>
-              I agree to the Netflix
-              <span class="link-red">Terms of Use</span>
-              and
-              <span class="link-red">Privacy Policy</span>
+            <input type="checkbox" />
+            <span
+              >I agree to the Netflix <span class="red">Terms of Use</span> and
+              <span class="red">Privacy Policy</span>
             </span>
           </div>
 
-          <button class="btn-primary">Create Account</button>
+          <button>Create Account</button>
 
-          <div class="account-text">
-            Already have an account?
-            <span class="link-red">Sign In</span>
+          <div class="login">
+            Already have an account? <span class="red">Sign In</span>
           </div>
 
-          <div class="contact-text">
-            Need help?
-            <span class="link-red">Contact Support</span>
+          <div class="help">
+            Need help? <span class="red">Contact Support</span>
           </div>
 
           <div class="captcha">
             This page is protected by Google reCAPTCHA to ensure you're not a
-            bot. <span class="link-red">Learn more</span>
+            bot.
+            <span class="red">Learn more</span>
           </div>
         </div>
       </div>
